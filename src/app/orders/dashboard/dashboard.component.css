@@ -1,0 +1,17 @@
+.dashboard{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../../assets/admin2.jpg');
+    height: 750px;
+    background-attachment: fixed;
+    background-size:cover;
+    color: white;
+}
+.admin-btn {
+    font-size:20px;
+    transition:all 0.3s;
+}
+.admin-btn:hover {
+    color:#f68400;
+}
+.center-line {
+    border-right:1px solid #fff;
+}

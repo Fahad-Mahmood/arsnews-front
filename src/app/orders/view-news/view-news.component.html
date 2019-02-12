@@ -1,0 +1,9 @@
+<cdk-virtual-scroll-viewport   style="height: 550px" itemSize="5">
+  <ng-container *cdkVirtualFor="let news of allNews">
+    <div class="row mb-1">
+    <span class="ml-5">{{news.title}}</span>
+    <button type="button" class="btn btn-danger ml-2" title="delete news"
+    (click)="delete(news)" >Delete</button>
+  </div>
+</ng-container>
+</cdk-virtual-scroll-viewport>

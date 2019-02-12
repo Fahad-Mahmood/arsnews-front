@@ -1,0 +1,11 @@
+.main {
+    margin-top:80px;
+}
+.facebook-sidebar{
+    width:100%;
+    border-right: 1.2px solid grey;
+}
+.custom-container{
+    background-color: #fff;
+    padding: 40px;
+}

@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+<main role="main" class="flex-shrink-0 main">
+<div class="container custom-container">
+<div class="row">
+  <div class="col-4 facebook-sidebar">
+    <app-fb-sidebar></app-fb-sidebar>
+  </div>
+  <div class="col-8">
+
+   <div class="news-contain">
+          <div class="card-body">
+              <h5 class="card-title fb-heading text-center">تازہ ترین خبریں</h5>
+            </div>
+          <cdk-virtual-scroll-viewport   style="height: 550px" itemSize="90" >
+        <ng-container *cdkVirtualFor="let news of allNews">
+      <figure class="bg-white" routerLink="/news/{{news._id}}">
+        <img class="news-listImg" src="{{news.image}}" alt="news">
+        <div class="news-container">
+          <h2 class="text-right">{{news.title}}</h2>
+          <ul>
+              <li class="float-right">
+                  <span>{{news.date| date}}  </span>
+                  <i class="fas fa-clock news-icon"></i>      
+              </li>
+              <li class="float-right mr-3">
+                  <span>0 تبصرے </span>
+                  <i class="fas fa-comments news-icon"></i>      
+              </li>
+              <li class="float-right mr-3">
+                  <span>{{news.views}} مناظر</span>
+                  <i class="fas fa-eye news-icon"></i>      
+              </li>
+            </ul>
+        </div>
+      </figure>
+      </ng-container>
+      </cdk-virtual-scroll-viewport>
+        </div>
+        <div class="row custom-row">
+          <app-advertisement></app-advertisement>
+        </div>
+   
+      </div>
+    </div>
+    
+    </div>
+    </main>
+    <app-footer></app-footer>
+    
+    

@@ -1,0 +1,25 @@
+.navbar-logo {
+    height:50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.navbar-logo-link {
+    padding:0;
+}
+.nav-text {
+    font-size: 30px;
+    color:#f68400;
+    font-weight: bold;
+}
+i {
+    color:#f68400;
+    font-size:28px;
+}
+i:hover {
+    color:#f6830073;
+}
+.navbar{
+    border-bottom:0.1em solid black;
+}
+

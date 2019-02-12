@@ -1,0 +1,18 @@
+<form class="ml-3" > 
+<div class="row ">
+    <input class="input-1" type="text" placeholder="News Title"#newsTitle>
+  </div>   
+    <div class="row "> 
+      <input class="input-1 " type="text" placeholder="Video id" #newsVideo >
+   
+    </div>
+ 
+     <div class="row ">
+       <input  class="image-btn "  type="file" name="image" accept="image/*" (change)="onFileChanged($event)" #fileInput >
+      </div>
+      <div class="row ">
+     <textarea class="input-1 text-1"  placeholder="News Description" #newsDescription></textarea>
+    </div>
+  <button class="btn btn-outline-success submit-btn" (click)="addNews(newsTitle.value,newsDescription.value,newsVideo.value)">Submit</button>
+
+</form>

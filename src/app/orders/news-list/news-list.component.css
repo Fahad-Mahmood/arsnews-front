@@ -1,0 +1,11 @@
+span {
+    top:1px;
+    background: #f683008a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #f68300;
+    padding-left: 4px;
+    padding-right:4px;
+    width:600px;
+}

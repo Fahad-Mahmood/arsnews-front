@@ -1,0 +1,11 @@
+.footer{
+    background-color:rgba(0, 0, 0, 0.877);
+    color:white;
+    border-top:1px solid gray;
+}
+.footer-txt{
+    width: 100%;
+    font-size:12px;
+    font-weight: bold;
+
+}

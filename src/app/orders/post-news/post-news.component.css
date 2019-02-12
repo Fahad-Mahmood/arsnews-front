@@ -1,0 +1,37 @@
+.imageInput{
+    display:none;
+}
+.submit-btn{
+    margin: 20px auto 0 auto;
+}
+.input-1{
+    width:300px;
+    margin-bottom: 10px;
+    padding:5px 10px 5px 10px;
+    border: 2px solid grey;
+    color:#576574
+}
+.image-btn {
+    width:300px;
+}
+
+.round {
+  border-radius: 34px;
+}
+.round:before {
+  border-radius: 50%; 
+}
+
+  /*Remove input field blue outline*/
+  input,
+  textarea,
+  select,
+  button {
+      outline: 0;
+  }
+  .text-1{
+      height:300px;
+      width:600px;
+        margin-top: 10px;
+      color:#576574;
+  }
