@@ -1,7 +1,8 @@
-# Angular application created using latest angular 7 cli
-===================================
+ Angular application created using latest angular 7 cli
+===========================================================
 
-  ### Features:
+  Features:
+  ----------
   
    * Services Creation
    * Admin Panel
